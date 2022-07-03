@@ -25,7 +25,8 @@ public class MqttApplication {
     private static Logger logger = LoggerFactory.getLogger(MqttApplication.class);
 
     public static void main(String[] args) throws Exception {
-
+        pole2Data[0] = 0;
+        pole1Data[0] = 0;
         File csvFile = new File("pole1.csv");
         FileWriter fileWriter1 = new FileWriter(csvFile);
         File csvFile1 = new File("pole2.csv");
